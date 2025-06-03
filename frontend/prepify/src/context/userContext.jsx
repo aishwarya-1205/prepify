@@ -6,6 +6,7 @@ export const UserContext = createContext();
 
 const UserProvider = ({ children }) => {
 
+    const url = "https://prepify-ai.onrender.com"
     const [user, setUser] = useState(null);
     const [loading, setLoading ] = useState(true); //New state to track loading
 
